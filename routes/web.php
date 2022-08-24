@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/search/cities', [App\Http\Controllers\ApiController::class, 'city'])->name('city');
+Route::get('/search/provinces', [App\Http\Controllers\ApiController::class, 'province'])->name('province');
 
 Auth::routes();
 

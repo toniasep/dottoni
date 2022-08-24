@@ -20,7 +20,6 @@ class CreateCityTable extends Migration
             $table->string('type');
             $table->string('city_name');
             $table->integer('postal_code');
-            $table->timestamps();
         });
     }
 
