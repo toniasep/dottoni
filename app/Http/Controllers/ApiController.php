@@ -17,7 +17,7 @@ class ApiController extends Controller
     public function city(Request $request)
     {
         $id = $request->input('id');
-        $source = $request->input('source');
+        $source = $request->input('source') ? $request->input('source') : "api";
         if ($source == "db") {
             $city = DB::table('city')
                 ->where('city_id', $id)
