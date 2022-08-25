@@ -13,13 +13,6 @@ test online untuk proses hiring PT. Digdaya Olah Teknologi (DOT) Indonesia.
     b. [GET] /search/cities?id={city_id}
 Data API pencarian ini mengambil dari database.
 
-### Sprint 2
-Meningkatnya kebutuhan Web service, tim engineer memutuskan untuk membuat swapable implementation​ untuk endpoint pencarian provinsi dan kota.
-1. Membuat sumber data pencarian province & cities bisa melalui database​ atau direct API​ raja ongkir (swapable implementation). Proses swap implementasi dapat dilakukan melalui konfigurasi tanpa merubah source code yang sudah dibuat.
-
-2. Menyediakan API login agar endpoint pencarian hanya bisa diakses oleh authorized user saja.
-
-3. Membuat unit test / API test agar web service tetap reliable & maintainable
 ## Cara Install Sprint 1
 
 Clone project.
