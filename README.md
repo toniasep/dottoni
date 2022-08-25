@@ -25,8 +25,8 @@ Meningkatnya kebutuhan Web service, tim engineer memutuskan untuk membuat swapab
 Clone project.
 
 ```bash
-  git clone -b sprint_1 https://github.com/toniasep/dottoni.git
-  cd dottoni
+  git clone -b sprint_1 https://github.com/toniasep/dottoni.git sprint_1
+  cd sprint_1
 ```
 buat sebuah database di local computer
 
@@ -65,7 +65,7 @@ ketik perintah berikut untuk menjalankan aplikasi.
 
 #### Get city
 
-```http
+```bash
   GET /search/cities/?id={city_id}
 ```
 
@@ -75,7 +75,7 @@ ketik perintah berikut untuk menjalankan aplikasi.
 
 #### Get province
 
-```http
+```bash
   GET /search/provinces/?id={province_id}
 ```
 
