@@ -66,7 +66,7 @@ ketik perintah berikut untuk menjalankan aplikasi.
 #### Get city
 
 ```bash
-  GET /search/cities/?id={city_id}
+  GET /search/cities/
 ```
 
 | Parameter | Type     | Description                |
@@ -76,7 +76,7 @@ ketik perintah berikut untuk menjalankan aplikasi.
 #### Get province
 
 ```bash
-  GET /search/provinces/?id={province_id}
+  GET /search/provinces/
 ```
 
 | Parameter | Type     | Description                       |
